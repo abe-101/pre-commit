@@ -1,3 +1,12 @@
+This repository is a fork of [pre-commit/action](https://github.com/pre-commit/action) with a key change:
+- Uses [uv](https://github.com/astral-sh/uv) instead of pip for installing pre-commit.
+
+To use this action in your workflows:
+```yaml
+- name: Run pre-commit
+  uses: abe-101/pre-commit@v3.0.2
+```
+
 this action is in maintenance-only mode and will not be accepting new features.
 
 generally you want to use [pre-commit.ci] which is faster and has more features.
